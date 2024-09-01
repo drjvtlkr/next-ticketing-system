@@ -11,13 +11,13 @@ const Navigation = () => {
           <Link href={"/"}>
             <GiSolarSystem className="icon" />
           </Link>
-          <Link href={"/TicketPage/new"}>
+          <Link href={"/TicketPages/new"}>
             <BsTicket className="icon" />
           </Link>
         </div>
         <div>
           <p className="text-default-text">
-            <span className="text-white">dheeraj@gmail.com</span>
+            <span className="text-black">dheeraj@gmail.com</span>
           </p>
         </div>
       </nav>
