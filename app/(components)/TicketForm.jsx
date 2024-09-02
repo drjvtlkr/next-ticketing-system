@@ -7,7 +7,7 @@ const TicketForm = () => {
 
   const router= useRouter();
   const startingTicketData = {
-    title: "",
+    title: "some",
     description: "",
     priority: 1,
     progress: 0,
@@ -43,6 +43,7 @@ const TicketForm = () => {
   
       router.refresh();
       router.push("/");
+      router.refresh();
       console.log("Ticket created successfully:", formData);
     } catch (error) {
       console.error("Error submitting form:", error);
